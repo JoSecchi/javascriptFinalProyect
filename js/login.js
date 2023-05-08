@@ -47,7 +47,13 @@ function logUser() {
 
     for(let usuario of arr_usuarios) {
         if(userEmail == usuario.email && userPassword == usuario.password){
-        window.location.href = '../pages/pokedex.html';
+            Swal.fire({
+                icon: 'success',
+                title: '¡Welcome back Pokémon Trainer',
+                text: '¡Gotta catch´em all!',
+                showConfirmButton: false,
+                footer: '<a href="../pages/pokedex.html">Continue to Pokédex</a>'
+              });
         break;
     } else{
         Swal.fire({
