@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page Icon Link -->
+    <link rel="shortcut icon" href="images/pokedex-icon.png" type="image/x-icon">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="../styles/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap" rel="stylesheet">
+    <title>Pokedex - ¡Search your favorite Pokemons!</title>
+</head>
+<body>
+    
+    <main>
+        <img src="#" alt="pokemon" class="pokemon__image">
+
+        <h1 class="pokemon__data">
+            <span class="pokemon__number"></span> - 
+            <span class="pokemon__name"></span>
+        </h1>
+
+        <form class="form">
+            <input 
+            type="search" 
+            class="input__search"
+            placeholder=" Name/Number"
+            required>
+        </form>
+
+        <div class="buttons">
+            <button class="button btn-prev">Prev</button>
+            <button class="button btn-next">Next</button>
+        </div>
+
+        <img src="../images/pokedex-empty.jpeg" alt="pokedex" class="pokedex">
+
+
+    </main>
+
+    <!-- Pokedex JS -->
+    <script src="../js/pokedex.js"></script>
+    <!-- Script Sweetalert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
