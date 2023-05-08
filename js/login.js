@@ -52,7 +52,7 @@ function logUser() {
                 title: '¡Welcome back Pokémon Trainer',
                 text: '¡Gotta catch´em all!',
                 showConfirmButton: false,
-                footer: '<a href="../pages/pokedex.html">Continue to Pokédex</a>'
+                footer: '<a href="/pages/pokedex.html">Continue to Pokédex</a>'
               });
         break;
     } else{
