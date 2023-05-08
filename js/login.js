@@ -52,8 +52,9 @@ function logUser() {
     } else{
         Swal.fire({
             icon: 'error',
-            title: '¡Tus datos son incorrectos!',
-            text: 'No encontramos tu correo y contraseña, intentalo de nuevo!',
+            title: '¡Your data is not registered!',
+            text: 'We cannot find your info, please try again!',
+
           })
     }}
 }
