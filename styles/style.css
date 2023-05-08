@@ -54,7 +54,7 @@ main {
 .form {
     position: absolute;
     width: 25%;
-    top: 76%;
+    top: 75%;
     left: 25.5%;
 }
 
@@ -71,7 +71,7 @@ main {
 .buttons {
     position: absolute;
     width: 25%;
-    top: 81.4%;
+    top: 81%;
     left: 25.5%;
     display: flex;
     gap: 4%;
